@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+   color: #824D74;
+}
+.App,.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App h1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: Orbitron;
+}
+
+.Menu,.Quiz{
+    width: 700px;
+    height: 700px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #401F71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.EndScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    
+}
+
+.EndScreen h2{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+
+.Menu button,
+.Quiz button,
+.EndScreen button
+{
+    width: 400px;
+    height: 70px;
+    margin: 5px;
+    border: none;
+    background-color: #5D0E41;
+    color: #ffffff;
+    font-family: Wix Madefor Display;
+    padding: 10px;
+
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
